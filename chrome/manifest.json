@@ -1,0 +1,23 @@
+{
+  "name": "VRCVideoCacher Cookies Exporter",
+  "description": "Exports cookies to VRCVideoCacher",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["cookies"],
+  "author": {
+	"email": "clienthax@gmail.com"
+  },
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "http://localhost:9696/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
