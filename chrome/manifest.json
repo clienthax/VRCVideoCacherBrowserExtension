@@ -1,9 +1,10 @@
 {
+  "manifest_version": 3,
   "name": "VRCVideoCacher Cookies Exporter",
   "description": "Exports cookies to VRCVideoCacher",
   "version": "1.0",
-  "manifest_version": 3,
   "permissions": ["cookies"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAobjMvNXsxBKW+2oSQ63E/D/37awxzuZiJpsp9G+0MT0MfTMNcYH7OfA1QK7CBAMR9O/ZocruPCN9KhBivBcSI+9swR7H0/kZRIAhfC7X7qRXWB3gWQJXueRo72BA6np7btjCb/PUt3xDu7Q1N/36ERn1d/brCyoj6c3lh3aqEDA2+VljjM1VcClJEmRZjx1MCV9M+pfCyTWbCXKUugHw2GKKfxsqlozMt+w/fcipK2OxeRU3/llVff3Q6coQ6XuDc7b0t0SwA/l43U/l0b2+s65zbTzfw7CwkPbTtRuduej18GDUa4Cr5MHHLcZB3eJRaVvyvFklRL2c5tsUkUdlyQIDAQAB",
   "author": {
 	"email": "clienthax@gmail.com"
   },
