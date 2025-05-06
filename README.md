@@ -13,12 +13,11 @@ By using your account with tools like this, **you run the risk of your YouTube/G
 Before using this extension, you need to set up the VRCVideoCacher backend:
 
 - Go to [EllyVR/VRCVideoCacher](https://github.com/EllyVR/VRCVideoCacher) and follow the setup instructions there.
-- After installing it, open the `config.json` file and make sure these settings are set:
+- After installing it, open the `config.json` file and make sure the below setting is set to to true:
 
 ```json
 {
-  "ytdlGeneratePoToken": false,
-  "ytdlUseCookiesFromBrowserExtension": true
+  "ytdlUseCookies": true
 }
 ```
 
@@ -26,13 +25,13 @@ Before using this extension, you need to set up the VRCVideoCacher backend:
 
 #### Chrome / Chromium browsers:
 
-- Download or clone this repository.
-- Go to `chrome://extensions/`.
-- Enable **Developer mode**.
-- Click **Load unpacked** and select the chrome folder.
+- Install the extension from the chrome store [here](https://chromewebstore.google.com/detail/vrcvideocacher-cookies-ex/kfgelknbegappcajiflgfbjbdpbpokge)
+- Make sure to load youtube once in the browser after installing while having VRCVideoCacher running, to setup the cookies
 
 ## What it does
 
 This extension passes your YouTube cookies to the VRCVideoCacher backend.
 
 It does this **automatically every time you load a YouTube page**, enabling the backend to access videos as if it were you.
+
+If you run into bot errors, refresh youtube in the browser.
