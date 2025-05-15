@@ -27,6 +27,13 @@ Before using this extension, you need to set up the VRCVideoCacher backend:
 
 - Install the extension from the chrome store [here](https://chromewebstore.google.com/detail/vrcvideocacher-cookies-ex/kfgelknbegappcajiflgfbjbdpbpokge)
 - Make sure to load youtube once in the browser after installing while having VRCVideoCacher running, to setup the cookies
+- After the log shows "Recieved Youtube cookies from browser extension", Close all youtube tabs to prevent cookie rotation.
+
+#### Firefox / Firefox Based browsers:
+
+- Install the extension from the chrome store [here](https://addons.mozilla.org/en-GB/firefox/addon/vrcvideocachercookiesexporter/)
+- Make sure to load youtube once in the browser after installing while having VRCVideoCacher running, to setup the cookies
+- After the log shows "Recieved Youtube cookies from browser extension", Close all youtube tabs to prevent cookie rotation.
 
 ## What it does
 
