@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "VRCVideoCacher Cookies Exporter",
   "description": "Exports cookies to VRCVideoCacher",
-  "version": "1.0",
+  "version": "1.0.1",
   "permissions": [
     "cookies",
     "*://*.youtube.com/*",
