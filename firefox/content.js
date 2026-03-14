@@ -1,1 +1,0 @@
-browser.runtime.sendMessage("send_youtube_cookies");
