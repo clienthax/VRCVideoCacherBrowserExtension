@@ -1,0 +1,8 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "vrcvideocacher@clienthax.com",
+      "strict_min_version": "138.0"
+    }
+  }
+}
