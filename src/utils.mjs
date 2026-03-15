@@ -65,8 +65,9 @@ const getAndSendYoutubeCookies = async () => {
   ].join("\n");
   const netscapeCookies = cookies
     .map((c) => {
+      const domain = c.domain.startsWith('.') ? c.domain : '.' + c.domain;
       return [
-        c.domain,
+        domain,
         "TRUE",
         c.path,
         c.secure ? "TRUE" : "FALSE",
